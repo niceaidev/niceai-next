@@ -1,10 +1,10 @@
-import "~/styles/globals.css";
+import '../styles/globals.css';
 
-import { GeistSans } from "geist/font/sans";
+import { GeistSans } from 'geist/font/sans';
 
-import { TRPCReactProvider } from "~/trpc/react";
+import { TRPCReactProvider } from '../trpc/react';
 
-export { metadata } from './metadata'
+export { metadata } from './metadata';
 
 export default function RootLayout({
   children,
