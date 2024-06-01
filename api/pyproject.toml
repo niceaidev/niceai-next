@@ -18,6 +18,8 @@ sqlmodel = "^0.0.18"
 inflection = "^0.5.1"
 psycopg2-binary = "^2.9.9"
 
+[tool.poetry.group.dev.dependencies]
+alembic = "^1.13.1"
 
 [build-system]
 requires = ["poetry-core"]
