@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlmodel import Session
 
 from core.db import get_session
-from services.datasets import DatasetService
+from services.dataset import DatasetService
 
 dataset_router = r = APIRouter()
 

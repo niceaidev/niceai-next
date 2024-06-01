@@ -1,6 +1,7 @@
-from sqlmodel import Session, select, func
-from typing import List, Optional
 from dataclasses import dataclass
+from typing import List
+
+from sqlmodel import Session, select, func
 
 from models.user import User
 
