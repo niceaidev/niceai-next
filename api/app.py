@@ -1,3 +1,4 @@
+import uvicorn
 from fastapi import FastAPI
 
 from config import config
@@ -15,3 +16,6 @@ app.include_router(app_router, prefix='/apps')
 app.include_router(user_router, prefix='/users')
 app.include_router(dataset_router, prefix='/datasets')
 app.include_router(provider_router, prefix='/providers')
+
+if __name__ == '__main__':
+    uvicorn.run('app:app')
