@@ -32,7 +32,6 @@ class ProviderService:
         return ProviderListResults(total=total, list=results)
 
     def get_provider(self, provider_id: str):
-        print(provider_id)
         statement = select(Provider).where(Provider.id == provider_id)
         results = self.session.exec(statement)
         return results.first()
