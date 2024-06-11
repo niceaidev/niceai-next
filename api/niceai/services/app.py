@@ -3,7 +3,7 @@ from typing import List
 
 from sqlmodel import Session, select, func
 
-from models.app import App
+from ..models.app import App
 
 
 @dataclass

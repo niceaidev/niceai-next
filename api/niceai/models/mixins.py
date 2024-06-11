@@ -2,7 +2,7 @@ import inflection
 from sqlalchemy.ext.declarative import declared_attr
 from sqlmodel import SQLModel
 
-from constants.db import table_prefix
+from ..constants.db import table_prefix
 
 
 class Base(SQLModel):

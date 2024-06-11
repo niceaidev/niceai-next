@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends
 from sqlmodel import Session
 from typing import Optional
-from core.db import get_session
-from services.provider import ProviderService, ProviderListResults
-from models.provider import Provider
+from ..core.db import get_session
+from ..services.provider import ProviderService, ProviderListResults
+from ..models.provider import Provider
 
 provider_router = r = APIRouter()
 

@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from sqlmodel import Session
 
-from core.db import get_session
-from services.user import UserService
+from ..core.db import get_session
+from ..services.user import UserService
 
 user_router = r = APIRouter()
 

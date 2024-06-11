@@ -38,7 +38,7 @@ class Config:
         # ------------------------
         # General Configurations.
         # ------------------------
-        self.CURRENT_VERSION = "0.6.9"
+        self.CURRENT_VERSION = "0.0.0"
         self.DATABASE_URL = get_env('DATABASE_URL')
         self.APP_NAME = get_env('APP_NAME')
 
